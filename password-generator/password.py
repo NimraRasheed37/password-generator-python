@@ -96,4 +96,13 @@ if sl.button("Check Password Strength"):
 
 
 # Ending message
-sl.write("Thank you for using this app! 🚀")
+sl.markdown(
+    """
+    <hr>
+    <p style="text-align:center;">
+        Created by <a href="https://nimrarasheed-na-sable.vercel.app/" target="_blank" style="color:#4caf50; font-weight:bold; text-decoration:none;">
+        Nimra Rasheed</a> © 2025
+    </p>
+    """, 
+    unsafe_allow_html=True
+)
